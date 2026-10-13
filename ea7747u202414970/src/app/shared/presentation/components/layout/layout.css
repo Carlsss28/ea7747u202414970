@@ -1,0 +1,77 @@
+
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  height: auto;
+  min-height: 64px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: var(--mat-sys-primary);
+  color: var(--mat-sys-on-primary);
+}
+
+
+.brand,
+.language {
+  display: flex;
+  flex: 1 1 0;
+  align-items: center;
+  min-width: max-content;
+}
+
+.brand {
+  gap: 12px;
+}
+
+.language {
+  justify-content: flex-end;
+}
+
+.logo {
+  border-radius: 4px;
+}
+
+.organization-name {
+  font: var(--mat-sys-title-medium);
+}
+
+.options {
+  display: flex;
+  gap: 4px;
+}
+
+
+.options a.mat-mdc-button {
+  color: var(--mat-sys-on-primary);
+}
+
+.options .active {
+  background-color: color-mix(in srgb, var(--mat-sys-on-primary) 18%, transparent);
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+
+@media (max-width: 768px) {
+  .brand,
+  .options,
+  .language {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+
+  .organization-name {
+    white-space: normal;
+    text-align: center;
+  }
+}

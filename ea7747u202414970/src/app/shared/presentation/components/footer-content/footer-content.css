@@ -1,0 +1,11 @@
+.footer-content {
+  margin-top: 24px;
+  padding: 12px 16px;
+  background-color: var(--mat-sys-surface-container-highest);
+  color: var(--mat-sys-on-surface);
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 4px 0;
+}
