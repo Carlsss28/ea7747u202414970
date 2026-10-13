@@ -27,7 +27,7 @@ export class LogoApi extends BaseApi {
   /**
    * Builds the URL of the logo that belongs to a website domain.
    *
-   * @param domain - The website domain of the organization (e.g., 'home.cern').
+   * @param domain - The website domain of the organization (e.g., 'home').
    * @returns The URL of the logo image.
    */
   getUrlFor(domain: string): string {
