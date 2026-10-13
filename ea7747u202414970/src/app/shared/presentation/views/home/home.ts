@@ -16,6 +16,9 @@ import {TranslatePipe} from '@ngx-translate/core';
   selector: 'app-home',
   //imports: [TranslatePipe, NewReservation],
   templateUrl: './home.html',
+  imports: [
+    TranslatePipe
+  ],
   styleUrl: './home.css'
 })
 export class Home {
