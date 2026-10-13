@@ -1,0 +1,48 @@
+{
+  "toolbar": {
+    "organization-name": "Plataforma TrailGo Outdoor Center Management",
+    "logo-alt": "logo"
+
+  },
+  "option": {
+    "home": "Inicio",
+    "new-reservation": "Nueva Reserva"
+  },
+  "home": {
+    "title": "Inicio",
+    "content": "Reserva inteligente y manejo de capacidades para centros exteriores."
+  },
+  "reservation-list": {
+    "title": "Mis centros",
+    "empty": "vacio"
+
+  },
+  "reservation": {
+    "title": "Mis centros",
+    "name": "nombre",
+    "activity":"actividad",
+    "capacity": "capacidad",
+    "latitude": "latitud",
+    "longitude": "longitud"
+  },
+  "reservation-form": {
+    "title": "Mis centros",
+    "name": "nombre",
+    "activity":"actividad",
+    "capacity": "capacidad",
+    "latitude": "latitud",
+    "longitude": "longitud"
+
+  },
+
+  "page-not-found": {
+    "title": "Pagina no encontrada",
+    "content": "<p>The path <strong>{{invalid_path}}</strong> does not exist.</p>",
+    "go-home": "Ir a inicio"
+  },
+  "footer": {
+    "rights": "Drerechos reservados.",
+    "powered-by": "Desarrollado por Carla Gallardo"
+
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "toolbar": {
+    "organization-name": "TrailGo Outdoor Center Management Platform",
+    "logo-alt": "logo"
+
+  },
+  "option": {
+    "home": "Home",
+    "new-reservation": "New Reservation"
+  },
+  "home": {
+    "title": "Home",
+    "content": "Smart Reservations and Capacity Management for Outdoor Centers."
+  },
+  "reservation-list": {
+    "title": "My Outdoor Centers",
+    "empty": "Empty"
+
+  },
+  "reservation": {
+    "title": "My Outdoor Centers",
+    "name": "name",
+    "activity":"activity",
+    "capacity": "capacity",
+    "latitude": "latitude",
+    "longitude": "longitude"
+  },
+  "reservation-form": {
+    "title": "My Outdoor Centers",
+    "name": "name",
+    "activity":"activity",
+    "capacity": "capacity",
+    "latitude": "latitude",
+    "longitude": "longitude"
+
+  },
+
+  "page-not-found": {
+    "title": "Page not found",
+    "content": "<p>The path <strong>{{invalid_path}}</strong> does not exist.</p>",
+    "go-home": "Go to Home"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "powered-by": "Developed by Carla Gallardo"
+
+  }
+}
